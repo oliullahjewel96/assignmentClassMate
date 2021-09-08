@@ -1,0 +1,49 @@
+.head-container {
+    background-color: rgb(124, 8, 8);
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    .head-info {
+        height: 50px;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-content: center;
+        .contact {
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                li {
+                    margin: 0 15px;
+                }
+            }
+        }
+        .social {
+            ul {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a {
+                    text-decoration: none;
+                    text-align: center;
+                }
+                li {
+                    a {
+                        padding: 17px;
+                        i {
+                            font-size: 15px;
+                        }
+                    }
+                    a:hover {
+                        background-color: blue;
+                    }
+                }
+            }
+        }
+        a {
+            color: #fff;
+        }
+    }
+}
